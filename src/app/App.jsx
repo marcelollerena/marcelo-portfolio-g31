@@ -4,6 +4,7 @@ import { Hero } from "../components/hero/hero";
 import { NavBar } from "../components/navbar/navbar";
 import { Biography } from "../components/biography/biography";
 import { WorkExperience } from "../components/work-experience/work-experience";
+import { Projects } from "../components/projects/projects";
 
 export function App() {
   return (
@@ -12,6 +13,7 @@ export function App() {
       <Hero />
       <Biography />
       <WorkExperience />
+      <Projects />
     </main>
   );
 }

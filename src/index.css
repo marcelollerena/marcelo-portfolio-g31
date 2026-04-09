@@ -2,6 +2,10 @@
   --background: #11071f;
   --secondary: #1a0b2e;
   --tertiary: #7127ba;
+  --foreground-title: #ccd6f6;
+  --deep-background: #2b0b3a;
+
+  --main-content-padding: 0px 10%;
 
   --special-font:
     "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -47,4 +51,12 @@ ol {
 
 a {
   cursor: pointer;
+}
+
+/* Website responsive */
+
+@media (width < 800px) {
+  :root {
+    --main-content-padding: 0px 10%;
+  }
 }
